@@ -12,4 +12,8 @@ async def hello(ctx):
 @bot.command()
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
-bot.run("")
+@bot.command()
+async def naber(ctx):
+    await ctx.send("iyiyim senden naber")
+
+
